@@ -8,7 +8,7 @@
 // from 19 February 2020
 //
 // Here the link to the website with all the plots and the histogram ROOT files:
-// https://rembserj.web.cern.ch/rembserj/plots/egamma/20200218_electron_scale_factors/Ele_MVA_V2
+// https://rembserj.web.cern.ch/rembserj/plots/egamma/20200226_electron_scale_factors/Ele_MVA_V2
 //
 // Author: Jonas Rembser 2020
 //
@@ -19,11 +19,11 @@
 
 // ID names in enum so we don't have to use strings in the event loop
 enum class LeptonID {
-  CommonVeto,
-  ZCandidate,
-  WCandidate,
-  ThreeLepton,
-  SameSign,
+  CommonVeto, // defined for all electrons with pt > 10 GeV and |eta| < 2.5
+  ZCandidate, // defined for all electrons with pt > 10 GeV and |eta| < 2.5
+  WCandidate, // defined for all electrons with pt > 10 GeV and |eta| < 2.5
+  ThreeLepton, // defined for all electrons with pt > 20 GeV and |eta| < 2.5, excluding 1.4442 < |eta| < 1.566 
+  SameSign, // defined for all electrons with pt > 20 GeV and |eta| < 2.5, excluding 1.4442 < |eta| < 1.566
 };
 
 enum class SystematicVariation {

@@ -7,7 +7,7 @@
 # from 19 February 2020
 #
 # Here the link to the website with all the plots and the histogram ROOT files:
-# https://rembserj.web.cern.ch/rembserj/plots/egamma/20200218_electron_scale_factors/Ele_MVA_V2
+# https://rembserj.web.cern.ch/rembserj/plots/egamma/20200226_electron_scale_factors/Ele_MVA_V2
 #
 # Author: Jonas Rembser 2020
 #
